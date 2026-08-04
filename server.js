@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     console.log(`New visitor IP logged: ${visitorIp}`);
     
     // Send a response back to the visitor
-    res.send(`<h1>Hello! Your IP address is: ${visitorIp}</h1>`);
+    res.send(`<h1>Click the combo of keys to accses</h1>`);
 });
 
 app.listen(PORT, () => {
